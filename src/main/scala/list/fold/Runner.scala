@@ -46,6 +46,6 @@ object Runner extends App{
   val threeD = List.tabulate(5,5,5)(_ * _ * _)
   println(threeD.mkString("List(\n ", "\n,", "\n)"))
 
-  
+
 
 }
