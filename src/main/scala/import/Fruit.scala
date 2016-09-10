@@ -18,7 +18,7 @@ object Runner extends App {
   import Fruit.{Apple => McIntosh, Banana}
 
   val mac = new McIntosh
-  mac.color // => red
+  println("mac.color = " + mac.color) // => red
 
   // Appleをインポートから除く
   import Fruit.{Apple => _}

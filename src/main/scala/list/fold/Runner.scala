@@ -1,7 +1,5 @@
 package list.fold
 
-import scala.Char
-
 /**
   * Created by Shota on 2016/07/21.
   */
@@ -29,7 +27,6 @@ object Runner extends App{
   *  A ::: B のList結合の計算量は、Aの長さに比例する
   *  から、flattenRight のが効率が良い
   * */
-
   def flattenLeft[T](list: List[List[T]]) = (List[T]() /: list) (_ ::: _)
   def flattenRight[T](list: List[List[T]]) = (list :\ List[T]()) (_ ::: _)
 

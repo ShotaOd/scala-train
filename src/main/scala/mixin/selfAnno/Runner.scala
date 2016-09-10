@@ -32,7 +32,7 @@ trait SimpleFoods {
 
 trait SimpleRecipes {
 
-  abstract val pear: Food
+  val pear: Food
   object FruitSalad extends Recipe (
     "fruid salad"
     ,List(Apple, pear)
